@@ -3,7 +3,21 @@
     <style name="Base.Theme.TimeCalculationApplication" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:colorBackground">@color/backLayer</item>
+        <item name="colorPrimary">@color/PrimeColour</item>
+
+
+        <item name="colorSurface">@color/BackLayerWhiteText</item>
+
+        <item name="colorOnPrimary">@color/WhiteText</item>
+        <item name="colorOnBackground">@color/WhiteText</item>
+        <item name="colorOnSurface">@color/WhiteText</item>
+
+        <item name="colorPrimaryVariant">@color/backLayer</item>
+        <item name="colorPrimaryDark">@color/backLayer</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
     </style>
 
-    <style name="Theme.TimeCalculationApplication" parent="Base.Theme.TimeCalculationApplication" />
+<style name="Theme.TimeCalculationApplication" parent="Base.Theme.TimeCalculationApplication" />
 </resources>

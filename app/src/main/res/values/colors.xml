@@ -2,4 +2,19 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#FFFFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFFFF</color>
+    <color name="colorAccent">#FFFFFFFF</color>
+
+<!--    Cool dark mode colours-->
+    <color name="backLayer">#090b12</color>
+    <color name="BackLayerForGrayText">#21252e</color>
+    <color name="GrayText">#696a71</color>
+    <color name="BackLayerWhiteText">#1a1f26</color>
+    <color name="WhiteText">#f9f9f8</color>
+    <color name="PrimeColour">#1fcecf</color>
+    <color name="ImportantBackground">#171c2f</color>
+
+
+
 </resources>
