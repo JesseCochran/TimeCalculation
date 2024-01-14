@@ -2,7 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="colorPrimary">#FFFFFFFF</color>
+<!--    <color name="colorPrimary">#FFFFFFFF</color>-->
     <color name="colorPrimaryDark">#FFFFFFFF</color>
     <color name="colorAccent">#FFFFFFFF</color>
 
@@ -14,6 +14,19 @@
     <color name="WhiteText">#f9f9f8</color>
     <color name="PrimeColour">#1fcecf</color>
     <color name="ImportantBackground">#171c2f</color>
+
+    <color name="nav">#0D0F19</color>
+
+
+<!--    Colour idea 2 blue look-->
+    <color name="colorPrimary">#1da1f3</color>
+    <color name="colorSecondary">#1da1f3</color>
+    <color name="colorBackground">#16202a</color>
+    <color name="colorSurface">#1e2b37</color>
+
+    <color name="colorOnPrimary">#ffffff</color>
+    <color name="colorOnBackground">#ffffff</color>
+    <color name="colorOnSurface">#ffffff</color>
 
 
 

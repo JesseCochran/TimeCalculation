@@ -4,9 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorSurface"
+    android:elevation="2dp"
     tools:context=".HoursFragment">
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/materialToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSurface"
+        android:elevation="1dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Hours Between"
+        app:titleTextColor="@color/PrimeColour" />
+
     <TextView
+        android:visibility="invisible"
         android:id="@+id/Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,41 +43,44 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:background="@drawable/rounded_corners"
-        android:backgroundTint="@color/BackLayerWhiteText"
+        android:backgroundTint="@color/colorSurface"
+        android:elevation="5dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <EditText
-            android:id="@+id/editTextStartTime"
+        <TextView
+            android:id="@+id/textViewStartTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
             android:layout_marginTop="80dp"
+            android:layout_marginRight="5dp"
             android:ems="10"
             android:hint="Start Time:"
-            android:layout_marginLeft="5dp"
-            android:layout_marginRight="5dp"
-            android:inputType="time"
+
+            android:textAlignment="center"
             android:textColor="@color/WhiteText"
             android:textColorHint="@color/GrayText"
-            android:textSize="28sp" />
+            android:textSize="30sp" />
 
-        <EditText
-            android:id="@+id/editTextEndTime"
+        <TextView
+            android:id="@+id/textViewEndTime"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="44dp"
             android:layout_marginLeft="5dp"
+            android:layout_marginTop="44dp"
             android:layout_marginRight="5dp"
             android:ems="10"
             android:hint="End Time:"
-            android:inputType="time"
+
+            android:textAlignment="center"
             android:textColor="@color/WhiteText"
             android:textColorHint="@color/GrayText"
-            android:textSize="28sp" />
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/textViewResult"
@@ -67,7 +88,6 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="130dp"
-            android:text="Result"
             android:textColor="@color/WhiteText"
             android:textSize="28sp" />
     </LinearLayout>

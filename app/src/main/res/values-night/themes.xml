@@ -19,19 +19,30 @@
 
 
 <!--        Jesse's colour ideas from an example he found-->
-                <item name="android:colorBackground">@color/backLayer</item>
-                <item name="colorPrimary">@color/PrimeColour</item>
+<!--                <item name="android:colorBackground">@color/backLayer</item>-->
+<!--                <item name="colorPrimary">@color/PrimeColour</item>-->
 
 
-                <item name="colorSurface">@color/BackLayerWhiteText</item>
+<!--                <item name="colorSurface">@color/BackLayerWhiteText</item>-->
 
-                <item name="colorOnPrimary">@color/WhiteText</item>
-                <item name="colorOnBackground">@color/WhiteText</item>
-                <item name="colorOnSurface">@color/WhiteText</item>
+<!--                <item name="colorOnPrimary">@color/WhiteText</item>-->
+<!--                <item name="colorOnBackground">@color/WhiteText</item>-->
+<!--                <item name="colorOnSurface">@color/WhiteText</item>-->
 
                 <item name="colorPrimaryVariant">@color/backLayer</item>
                 <item name="colorPrimaryDark">@color/backLayer</item>
                 <item name="android:statusBarColor">@android:color/transparent</item>
+
+
+
+        <item name="colorPrimary">#1da1f3</item>
+        <item name="colorSecondary">#1da1f3</item>
+        <item name="android:colorBackground">#16202a</item>
+        <item name="colorSurface">#1e2b37</item>
+
+        <item name="colorOnPrimary">#ffffff</item>
+        <item name="colorOnBackground">#ffffff</item>
+        <item name="colorOnSurface">#ffffff</item>
     </style>
 
     <style name="Theme.TimeCalculationApplication" parent="Base.Theme.TimeCalculationApplication" />
